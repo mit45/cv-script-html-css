@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background: #e5e7eb;
+}
+
+nav {
+    background: #dbdbdb;
+    width: 22%;
+    height: 100%;
+    padding-bottom: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 0 10px;
+}
+
+.column {
+    padding-left: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    background-color: blue;
+}
+
+section {
+    background-color: #eee;
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.tarih {
+    color: green;
+}
+
+i {
+    padding-right: 5px;
+}
+
+
+.sirket {
+    background-color: green;
+    color: white;
+    padding: .4rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.img {
+    text-align: center;
+}
+
+nav img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 1.5rem;
+    line-height: 1.2;
+}
+
+ul li i {
+    margin-right: 5px;
+}
+
+ul li a {
+    color: black;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social>a {
+    padding: 10px;
+    color: blue;
+}
+
+.yetenekler {
+    padding-top: 5px;
+}
+
+
+table {
+    width: 100%;
+    border: 0 solid black;
+    background-color: #EEE;
+    color: black;
+    padding-left: 20px;
+}
+
+table td {
+    border: 0 solid black;
+    padding: 7px;
+}
+
+#tablo-baslik {
+    font-weight: 700;
+    text-align: center;
+}
